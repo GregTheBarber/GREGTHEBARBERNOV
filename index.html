@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Grooming Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        #hero {
+            background: url('your-hero-image.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        #hero h1 {
+            font-size: 3rem;
+        }
+
+        #hero p {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+
+        #services {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .service-box {
+            display: inline-block;
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Your Grooming Journey Starts Here</h1>
+        <p>Precision and Style in Every Cut</p>
+        <button onclick="alert('Booking feature coming soon!')">Book Now</button>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Haircuts</h3>
+            <p>Classic and modern haircuts tailored to you.</p>
+        </div>
+        <div class="service-box">
+            <h3>Shaves</h3>
+            <p>Luxury shaves with precision and care.</p>
+        </div>
+        <div class="service-box">
+            <h3>Beard Trims</h3>
+            <p>Get your beard groomed and styled to perfection.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Grooming Website. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Add JavaScript for future interactive functionality
+        console.log("Page Loaded");
+    </script>
+    
+</body>
+</html>
